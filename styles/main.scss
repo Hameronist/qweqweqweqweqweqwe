@@ -1,0 +1,1493 @@
+@import 'reset';
+
+body {
+    color: white;
+}
+
+    .welcome-screen {
+
+    padding-top: 70px;
+    width: 100%;
+    height: 700px;
+
+    background: {
+        image: url(../images/Background.png);
+        size: cover;
+    }
+    
+    header {
+        margin: 0 auto;
+        align-items: center;
+        width: 944px;
+        height: 36px;
+    
+        .logo {
+            float: left;
+    
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 20px;
+            }
+    
+            line-height: 24px;
+            margin-right: 550px;
+        }
+    
+        .log-sig {
+    
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 400;
+                size: 14px;
+            }
+    
+            line-height: 17px;
+            display: flex;
+            align-items: center;
+            width: 174px;
+            height: 100%;
+    
+            .log-in {
+                float: left;
+                margin: 0 20px 0 0;
+                width: 44px;
+                height: 17px;
+            }
+    
+            .sign-in {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: solid 2px white;
+                border-radius: 20px;
+                float: left;
+                width: 90px;
+                height: 36px;
+            }
+    
+        }
+    
+    }
+
+    .welcome-text {
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 700;
+            size: 52px;
+        }
+
+        line-height: 63px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-top: 183.5px;
+        width: 470px;
+        height: 126px;
+    }
+
+    .und-welcome-text {
+        width: 356px;
+        height: 25px;
+        margin: 0 auto;
+        margin-top: 28.5px;
+
+        font: {
+            family: 'Roboto', sans-serif;
+            style: normal;
+            weight: normal;
+            size: 20px;
+        }
+
+        line-height: 24px;
+    }
+
+    .welcome-button {
+        margin: 0 auto;
+        margin-top: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FF4E50;
+        border-radius: 40px;
+        width: 225px;
+        height: 40px;
+        text-decoration: none;
+        color: white;
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 700;
+            size: 14px;
+        }
+
+        line-height: 17px;
+    }
+
+}
+
+.second-blocks {
+    margin: 95px auto;
+    width: 940px;
+    height: 461px;
+
+    .how {
+        display: flex;
+        justify-content: center;
+        color: black;
+        margin: 0 auto;
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 700;
+            size: 26px;
+        }
+
+        line-height: 32px;
+    }
+
+    .collect-blocks {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .blocks {
+        border-radius: 4px;
+        width: 300px;
+        height: 394px;
+        background-size: cover;
+    }
+
+    .one {
+
+        background: {
+            size: auto;
+            image: url(../images/Bitmap.png);
+        }
+
+    }
+
+    .two {
+
+        background: {
+            size: auto;
+            image: url(../images/Bitmap2.png);
+        }
+
+    }
+
+    .three {
+
+        background: {
+            size: auto;
+            image: url(../images/Bitmap3.png);
+        }
+
+    }
+
+    .coral-blocks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 2px;
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 400;
+            size: 10px;
+        }
+
+        line-height: 12px;
+        position: relative;
+        top: 220px;
+        left: 25px;
+        border-radius: 40px;
+        background-color: #FF4E50;
+        width: 70px;
+        height: 20px;
+    }
+
+    .description-topic {
+        position: relative;
+        left: 25px;
+        top: 240px;
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 700;
+            size: 24px;
+        }
+
+        line-height: 26px;
+        width: 250px;
+        height: 58px;
+    }
+
+    .description {
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        left: 25px;
+        top: 255px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+
+        font: {
+            style: normal;
+            weight: 300;
+            size: 14px;
+            family: 'Roboto', sans-serif;
+        }
+
+        line-height: 14px;
+        width: 250px;
+        height: 57px;
+    }
+
+    .dop {
+        top: 260px;
+        width: 250px;
+        height: 29px;
+    }
+
+    .dopon {
+        top: 270px;
+    }
+
+    .anoth {
+        top: 250px;
+    }
+
+}
+
+.partners-blocks {
+    margin: 50px auto;
+    width: 941px;
+    height: 361px;
+
+    .meet {
+        color: black;
+        margin: 0 auto;
+        width: 491px;
+        height: 32px;
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 700;
+            size: 26px;
+        }
+
+        line-height: 32px;
+    }
+
+    .people-block {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        height: 224px;
+        width: 100%;
+
+        .block {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 221px;
+            height: 205px;
+
+            .another {
+                height: 284px;
+            }
+
+            .big-circle {
+                margin: 0 auto;
+                border-radius: 120px;
+                width: 120px;
+                height: 120px;
+
+                .small-circle {
+                    position: relative;
+                    left: 85px;
+                    top: 85px;
+                    border-radius: 32px;
+                    border: 4px solid white;
+                    height: 32px;
+                    width: 32px;
+                }
+
+                .onese {
+
+                    background: {
+                        color: #FF4E50;
+                        position: center;
+                        repeat: no-repeat;
+                        size: 16px;
+                        image: url(../images/music2.png);
+                    }
+
+                }
+
+                .twose {
+
+                    background: {
+                        color: #19D4CA;
+                        position: center;
+                        repeat: no-repeat;
+                        image: url(../images/Shape.png);
+                    }
+
+                }
+
+                .threese {
+
+                    background: {
+                        color: #FFA710;
+                        position: center;
+                        repeat: no-repeat;
+                        image: url(../images/Shape-2.png);
+                    }
+
+                }
+
+                .fourse {
+
+                    background: {
+                        color: #667DF3;
+                        position: center;
+                        repeat: no-repeat;
+                        image: url(../images/Shape-3.png);
+                    }
+
+                }
+
+            }
+
+            .threes {
+                height: 140px;
+                height: 140px;
+            }
+
+            .fours {
+                height: 140px;
+                height: 140px;
+            }
+
+            .ones {
+
+                background: {
+                    size: cover;
+                    image: url(../images/Bitmap-ones.png);
+                }
+
+            }
+
+            .twos {
+
+                background: {
+                    size: cover;
+                    image: url(../images/Bitmap-twose.png);
+                }
+
+            }
+
+            .threes {
+
+                background: {
+                    size: cover;
+                    image: url(../images/Bitmap-threes.png);
+                }
+
+            }
+
+            .fours {
+
+                background: {
+                    size: cover;
+                    image: url(../images/Bitmap-4.png);
+                }
+
+            }
+
+            .heder {
+                font-family: 'Roboto', sans-serif;
+                color: black;
+                display: flex;
+                justify-content: center;
+
+                margin: {
+                    top: 7px;
+                    bottom: 20px;
+                }
+
+                width: 221px;
+                height: 18px;
+            }
+
+            .descripton {
+                color: black;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+
+                font: {
+                    family: 'Roboto', sans-serif;
+                    style: normal;
+                    weight: 300;
+                    size: 14px;
+                }
+
+                line-height: 14px;
+                width: 221px;
+                height: 57px;
+            }
+
+            .dop {
+                margin: 10px 0 10px 0;
+            }
+
+        }
+
+    }
+
+    .peoples-button {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FF4E50;
+        width: 180px;
+        height: 40px;
+        border: 2px solid #FF4E50;
+        border-radius: 40px;
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 700;
+            size: 14px;
+        }
+
+        line-height: 17px;
+    }
+
+}
+
+.activity-blocks {
+    margin: 45px auto;
+    width: 940px;
+    height: 1031px;
+
+    .discover {
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 700;
+            size: 26px;
+        }
+
+        line-height: 32px;
+        margin: 0 auto;
+        width: 413px;
+        height: 37px;
+    }
+
+    .bloks {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 310px;
+
+        .three-blocks {
+            text-align: center;
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 22px;
+            }
+
+            line-height: 27px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            background-color: #667DF3;
+            width: 300px;
+            height: 310px;
+        }
+
+        .two-blocks {
+            text-align: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 22px;
+            }
+
+            line-height: 27px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            width: 620px;
+            height: 310px;
+            background-color: #667DF3;
+        }
+
+        .first {
+
+            background: {
+                size: cover;
+                image: url(../images/first.png);
+            }
+
+        }
+
+        .second {
+
+            background: {
+                size: cover;
+                image: url(../images/second.png);
+            }
+
+        }
+
+        .third {
+
+            background: {
+                size: cover;
+                image: url(../images/third.png);
+            }
+
+        }
+
+        .fourth {
+
+            background: {
+                size: cover;
+                image: url(../images/fourth.png);
+            }
+
+        }
+
+        .fiveth {
+
+            background: {
+                size: cover;
+                image: url(../images/fiveth.png);
+            }
+
+        }
+
+        .sixth {
+
+            background: {
+                size: cover;
+                image: url(../images/sixth.png);
+            }
+
+        }
+
+        .seventh {
+
+            background: {
+                size: cover;
+                image: url(../images/seventh.png);
+            }
+
+        }
+
+    }
+
+}
+
+.creating-holiday {
+    color: black;
+    margin: 50px auto;
+    width: 482px;
+    height: 158px;
+
+    .create-holiday {
+        margin: 0 auto;
+        margin-bottom: 43px;
+        width: 338px;
+        height: 32px;
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 700;
+            size: 26px;
+        }
+
+        line-height: 32px;
+    }
+
+    .holiday-question {
+        margin: 0 auto;
+        margin-bottom: 25px;
+        width: 265px;
+        height: 24px;
+        line-height: 14px;
+
+        font: {
+            family: 'Roboto', sans-serif;
+            style: normal;
+            weight: 300;
+            size: 16px;
+        }
+
+    }
+
+    .enter-window {
+        width: 482px;
+        height: 40px;
+
+        .enter {
+
+            font: {
+                family: 'Roboto', sans-serif;
+                style: normal;
+                weight: 300;
+                size: 14px;
+            }
+
+            line-height: 16px;
+            margin-right: 10px;
+            color: #999999;
+            background: #FFFFFF;
+            border: 1px solid #D4D4D4;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+            border-radius: 3px;
+            width: 299px;
+            height: 40px;
+        }
+
+        .enter-button {
+            color: white;
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 14px;
+            }
+
+            line-height: 17px;
+            width: 162.12px;
+            height: 40px;
+            background: #FF4E50;
+            border-radius: 40px;
+            border: 0;
+        }
+
+    }
+
+}
+
+.footer {
+    color: black;
+    padding-top: 38px;
+    width: 100%;
+    height: 224px;
+
+    .dreamshare {
+        float: left;
+        margin: 0 122px 0 249px;
+        width: 119px;
+        height: 184px;
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            size: 16px;
+            weight: 400;
+        }
+
+        line-height: 20px;
+    }
+
+    .head-and-list {
+        margin-right: 125px;
+        float: left;
+
+
+        .ogo {
+            color: #999999;
+
+            font: {
+                family: 'Roboto', sans-serif;
+                style: normal;
+                weight: 300;
+                size: 14px;
+            }
+
+            line-height: 26px;
+        }
+
+
+    }
+
+    .head {
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 700;
+            size: 14px;
+        }
+
+        line-height: 17px;
+        margin-bottom: 11px;
+    }
+
+
+    .kek {
+        margin-right: 287px;
+        float: left;
+    }
+
+    .last {
+        float: left;
+        height: 43px;
+    }
+
+    .designed {
+        margin-left: 27px;
+        width: 83px;
+        height: 12px;
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 700;
+            size: 10px;
+        }
+
+        line-height: 12px;
+        letter-spacing: 1px;
+    }
+
+    .areto {
+        background-image: url(../images/Areto.png);
+        width: 110px;
+        height: 24px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .welcome-screen {
+
+        padding-top: 46px;
+
+        header {
+
+            line-height: 24px;
+            width: 670px;
+            height: 36px;
+    
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 20px;
+            }
+    
+            .logo {
+                margin-right: 355px;
+                float: left;
+                width: 152px;
+                height: 24px;
+            }
+    
+            .log-sig {
+                float: left;
+                width: 163px;
+    
+                .log-in {
+                    
+                    line-height: 17px;
+                    width: 44px;
+                    height: 17px;
+                    
+                    font: {
+                        family: 'Montserrat';
+                        style: normal;
+                        weight: 400;
+                        size: 14px;
+                    }
+                }
+    
+    
+                .sign-in {
+    
+                    font: {
+                        family: 'Montserrat';
+                        style: normal;
+                        weight: 400;
+                        size: 14px;
+                    }
+    
+    
+                }
+    
+            }
+
+        }
+    
+        .welcome-text {
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                size: 52px;
+                weight: 700;
+            }
+
+            line-height: 63px;
+            text-align: center;
+            width: 470px;
+            height: 126px;
+            left: 149px;
+            top: 183.5px;
+        }
+
+        .und-welcome-text {
+
+            font: {
+                family: 'Roboto', sans-serif;
+                style: normal;
+                weight: 300;
+                size: 22px;
+            }
+
+            line-height: 24px;
+            width: 396px;
+            height: 25px;
+            left: 186px;
+        }
+
+        .welcome-button {
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 14px;
+            }
+
+            line-height: 17px;
+            left: 272px;
+            width: 225px;
+            height: 40px;
+        }
+
+    }
+
+    .second-blocks {
+        width: 748px;
+        height: 461px;
+
+        .how {
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 22px;
+            }
+
+            line-height: 27px;
+            width: 289px;
+            height: 27px;
+        }
+
+        .blocks {
+            width: 236px;
+            height: 400px;
+        }
+
+        .description-topic {
+            width: 196px;
+            height: 58px;
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 24px;
+            }
+
+            line-height: 14px;
+        }
+
+        .dop {
+            width: 196px;
+            height: 29px;
+        }
+
+        .description {
+
+            font: {
+                family: 'Roboto', sans-serif;
+                style: normal;
+                weight: 300;
+                size: 14px;
+            }
+
+            line-height: 14px;
+            width: 196px;
+            height: 76px;
+        }
+
+        .dopon {
+            width: 196px;
+            height: 57px;
+        }
+
+    }
+
+    .partners-blocks {
+        width: 492px;
+        height: 605px;
+
+        .meet {
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 22px;
+            }
+
+            line-height: 27px;
+            width: 416px;
+            height: 27px;
+        }
+
+        .people-block {
+            display: block;
+            justify-content: space-between;
+
+            .block {
+                float: left;
+                width: 236px;
+                height: 224px;
+            }
+
+        }
+
+        .peoples-button {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #FF4E50;
+            width: 180px;
+            height: 40px;
+            border: 2px solid #FF4E50;
+            border-radius: 40px;
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 14px;
+            }
+
+            line-height: 17px;
+        }
+
+    }
+
+    .activity-blocks {
+        width: 748px;
+        height: 1031px;
+
+        .bloks {
+
+            .three-blocks {
+
+                font: {
+                    family: 'Montserrat';
+                    style: normal;
+                    weight: 700;
+                    size: 22px;
+                }
+
+                line-height: 27px;
+                width: 236px;
+                height: 310px;
+            }
+
+            .two-blocks {
+
+                font: {
+                    family: 'Montserrat';
+                    style: normal;
+                    weight: 700;
+                    size: 22px;
+                }
+
+                line-height: 27px;
+                width: 492px;
+                height: 310px;
+            }
+        }
+    }
+
+    .create-holiday {
+
+        font: {
+            family: 'Montserrat';
+            style: normal;
+            weight: 700;
+            size: 22px;
+        }
+
+        line-height: 27px;
+        width: 303px;
+        height: 27px;
+
+        .holiday-question {
+            display: flex;
+            justify-content: center;
+
+            font: {
+                family: 'Roboto', sans-serif;
+                style: normal;
+                weight: 300;
+                size: 18px;
+            }
+
+            line-height: 14px;
+            width: 415px;
+            height: 24px;
+        }
+
+    }
+
+    .footer {
+
+        .dreamshare {
+            margin-left: 39px;
+        }
+
+        .head-and-list {
+            margin-right: 70px;
+        }
+
+        .kek {
+            margin-right: 68px;
+        }
+    }
+}
+
+@media screen and (max-width:310px) {
+
+    .welcome-screen {
+        background-size: cover;
+        padding-top: 20px;
+        height: 540px;
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column-reverse;
+            margin: 0 auto;
+            align-items: center;
+            width: 153px;
+            height: 200px;
+
+            .logo {
+                height: 36px;
+                margin: 0 auto;
+            }
+
+            .log-sig {
+                height: 36px;
+            }
+
+        }
+
+        .welcome-text {
+            margin: 26.5px 0 0 0;
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 30px;
+            }
+
+            line-height: 37px;
+            width: 272px;
+            height: 74px;
+            text-align: center;
+        }
+
+        .und-welcome-text {
+            margin-top: 5.5px;
+            text-align: center;
+            width: 280px;
+            height: 49px;
+
+            font: {
+                family: 'Roboto', sans-serif;
+                style: normal;
+                weight: 300;
+                size: 18px;
+            }
+
+            line-height: 24px;
+        }
+
+        .welcome-button {
+            margin-top: 15px;
+        }
+
+    }
+
+    .second-blocks {
+        width: 300px;
+        height: 781px;
+
+        .how {
+            width: 289px;
+            height: 27px;
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 22px;
+            }
+
+            line-height: 27px;
+        }
+
+        .collect-blocks {
+            height: 740px;
+            display: flex;
+            flex-direction: column;
+
+            .blocks {
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                height: 240px;
+            }
+
+            .one {
+                background-image: url(../images/Object1.png);
+            }
+
+            .two {
+                background-image: url(../images/Object2.png);
+            }
+
+            .three {
+                background-image: url(../images/Object3.png);
+            }
+
+            .coral-blocks {
+                margin-left: 20px;
+                margin-top: 64px;
+                position: unset;
+            }
+
+            .description-topic {
+                margin-left: 20px;
+                margin-top: 15px;
+                position: unset;
+            }
+
+            .description {
+                margin-left: 20px;
+                margin-top: 10px;
+                position: unset;
+            }
+
+        }
+
+    }
+
+    .partners-blocks {
+        width: 300px;
+        height: 1100px;
+
+        .meet {
+            width: 280px;
+            height: 54px;
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 22px;
+            }
+
+            line-height: 27px;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+        }
+
+        .people-block {
+            height: 1008px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .block {
+                display: block;
+                margin: 0 auto;
+
+                .big-circle {
+                    margin: 0 auto;
+                    border-radius: 120px;
+                    width: 120px;
+                    height: 120px;
+
+                    .small-circle {
+                        position: relative;
+                        left: 85px;
+                        top: 85px;
+                        border-radius: 32px;
+                        border: 4px solid white;
+                        height: 32px;
+                        width: 32px;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .activity-blocks {
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        height: 866px;
+        width: 300px;
+
+        .bloks {
+            height: 360px;
+            display: flex;
+            flex-direction: column;
+            justify-content: unset;
+
+            .three-blocks {
+                margin-bottom: 10px;
+                width: 300px;
+                height: 120px;
+            }
+
+            .two-blocks {
+                margin-bottom: 10px;
+                width: 300px;
+                height: 120px;
+            }
+
+            .first {
+                background-size: cover;
+                background-image: url(../images/1.png);
+            }
+
+            .second {
+                background-size: cover;
+                background-image: url(../images/2.png);
+            }
+
+            .third {
+                background-size: cover;
+                background-image: url(../images/3.png);
+            }
+
+            .fourth {
+                background-size: cover;
+                background-image: url(../images/4.png);
+            }
+
+            .fiveth {
+                background-size: cover;
+                background-image: url(../images/5.png);
+            }
+
+            .sixth {
+                background-size: cover;
+                background-image: url(../images/6.png);
+            }
+
+            .seventh {
+                background-size: cover;
+                background-image: url(../images/7.png);
+            }
+
+        }
+
+        .anotho {
+            height: 220px;
+        }
+
+    }
+
+    .creating-holiday {
+        height: 152px;
+        width: 280px;
+
+        .create-holiday {
+            margin-bottom: 9px;
+            width: 280px;
+            height: 54px;
+
+            font: {
+                family: 'Montserrat';
+                style: normal;
+                weight: 700;
+                size: 22px;
+            }
+
+            line-height: 27px;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+        }
+
+        .holiday-question {
+            margin-bottom: 15px;
+            width: 280px;
+            height: 24px;
+
+            font: {
+                family: 'Roboto', sans-serif;
+                style: normal;
+                weight: 300;
+                size: 17px;
+            }
+
+            line-height: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            text-align: center;
+        }
+
+        .enter-window {
+            width: 280px;
+            height: 90px;
+
+
+            .enter {
+                margin-bottom: 20px;
+                width: 280px;
+                height: 40px;
+
+                font: {
+                    family: 'Roboto', sans-serif;
+                    style: normal;
+                    weight: 300;
+                    size: 14px;
+                }
+
+                line-height: 16px;
+            }
+
+            .enter-button {
+                width: 280px;
+                height: 40px;
+
+                font: {
+                    family: 'Montserrat';
+                    style: normal;
+                    weight: 700;
+                    size: 14px;
+                }
+
+                line-height: 17px;
+            }
+        }
+    }
+
+    .footer {
+
+        .dreamshare {
+            margin: 0 auto;
+            float: none;
+            width: 119px;
+            height: 20px;
+            margin-bottom: 13px;
+        }
+
+        .head {
+            margin: 0 auto;
+            margin-bottom: 14px;
+            float: none;
+            width: 70px;
+            height: 17px;
+        }
+
+        .head-and-list {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            float: none;
+            width: 280px;
+            height: 80px;
+            margin-bottom: 20px;
+
+            .list {
+                width: 280px;
+                height: 52px;
+                display: block;
+                text-align: center;
+
+                .ogo {
+                    line-height: 15px;
+                    text-align: center;
+                    float: left;
+                    width: 70px;
+                    height: 17px;
+                }
+
+            }
+
+        }
+
+    }
+
+    .last {
+        margin-left: 75px;
+        height: 43px;
+    }
+
+    .last-margin {
+        margin-left: 70px;
+    }
+
+}
